@@ -130,7 +130,7 @@ export const QUIZ_DATA: Chapter[] = [
       { id: 6, type: QuestionType.MULTIPLE_CHOICE, text: "في أي الفترات يتكون السلوك المطبوع؟", options: ["الحضانة", "الإدراك", "الفترة الحساسة", "التعلم"], correctAnswer: "الفترة الحساسة" },
       { id: 7, type: QuestionType.MULTIPLE_CHOICE, text: "حالة يحصل فيها فرد على سيادة الموارد دون اصطدام:", options: ["جمع طعام", "هجرة", "مغازلة", "سيادة"], correctAnswer: "سيادة" },
       { id: 8, type: QuestionType.MULTIPLE_CHOICE, text: "سلوك يهتم بإيجاد الغذاء وجمعه:", options: ["حضانة", "مغازلة", "جمع الغذاء", "هجرة"], correctAnswer: "جمع الغذاء" },
-      { id: 9, type: QuestionType.MULTIPLE_CHOICE, text: "سلوك يرتبط بنجاح التكاثر:", options: ["إيثار", "مغازلة", "جمع غذاء", "هجرة"], correctAnswer: "المغازلة" },
+      { id: 9, type: QuestionType.MULTIPLE_CHOICE, text: "سلوك يرتبط بنجاح التكاثر:", options: ["إيثار", "مغازلة", "جمع غذاء", "هجرة"], correctAnswer: "مغازلة" },
       { id: 10, type: QuestionType.MULTIPLE_CHOICE, text: "سلوك مرتبط بالفرمونات:", options: ["صراع", "هجرة", "حضانة", "تواصل"], correctAnswer: "تواصل" },
       { id: 11, type: QuestionType.MULTIPLE_CHOICE, text: "مثال على النمط اليومي:", options: ["هجرة", "دورة النوم والاستيقاظ", "بيات شتوي", "تكاثر"], correctAnswer: "دورة النوم والاستيقاظ" },
       { id: 12, type: QuestionType.MULTIPLE_CHOICE, text: "ضمان حصول الأبناء على فرصة عيش كبيرة:", options: ["صراع", "هجرة", "حضانة", "تحديد منطقة نفوذ"], correctAnswer: "حضانة" },
