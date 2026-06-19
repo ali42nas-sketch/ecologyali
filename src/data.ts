@@ -66,7 +66,7 @@ export const QUIZ_DATA: Chapter[] = [
       { id: 10, type: QuestionType.MULTIPLE_CHOICE, text: "أي المخلوقات الآتية يعد من المحللات؟", options: ["بكتيريا كيميائية", "محار", "فطر على أشجار ميتة", "نبات صانع غذاء"], correctAnswer: "فطر على أشجار ميتة" },
       { id: 11, type: QuestionType.TRUE_FALSE, text: "المنطقة من الغابة التي تشهد تغيراً طفيفاً في الأنواع هي مجتمع الذروة.", correctAnswer: true },
       { id: 12, type: QuestionType.TRUE_FALSE, text: "كمية الأكسجين في حوض الأسماك هي منطقة التحمل.", correctAnswer: false, explanation: "التصحيح: عامل محدد." },
-      { id: 13, type: QuestionType.TRUE_FALSE, text: "التعاقب الثانوي يصف التغيرات على سفح جبل تعرض لانزلاق طيني.", correctAnswer: false, explanation: "التصحيح: تعاقب أولي (إذا كان صخراً جُرداً من التربة)." },
+      { id: 13, type: QuestionType.TRUE_FALSE, text: "التعاقب الثانوي يصف التغيرات على سفح جبل تعرض لانزلاق طيني.", correctAnswer: true, explanation: "التصحيح: تعاقب أولي (إذا كان صخراً جُرداً من التربة)." },
       { id: 14, type: QuestionType.TRUE_FALSE, text: "التندرا منطقة يتميز فيها التبخر بتجاوز معدل الهطول.", correctAnswer: false, explanation: "التصحيح: الصحراء هي التي يتميز فيها التبخر بتجاوز الهطول." },
       { id: 15, type: QuestionType.TRUE_FALSE, text: "المناخ هو حالة الغلاف الجوي.", correctAnswer: false, explanation: "التصحيح: المناخ هو متوسط الطقس، أما حالة الغلاف الجوي اللحظية فهي الطقس." },
       { id: 16, type: QuestionType.TRUE_FALSE, text: "الطقس معدل الظروف البيئية في منطقة ما.", correctAnswer: false, explanation: "التصحيح: هذا تعريف المناخ." },
@@ -98,7 +98,7 @@ export const QUIZ_DATA: Chapter[] = [
     questions: [
       { id: 1, type: QuestionType.MULTIPLE_CHOICE, text: "ما الذي يمثل القيمة الاقتصادية غير المباشرة للتنوع الحيوي؟", options: ["الطعام", "الحماية من الفيضان", "الملابس", "الأدوية"], correctAnswer: "الحماية من الفيضان" },
       { id: 2, type: QuestionType.MULTIPLE_CHOICE, text: "مصطلح يصف تجمعاً من غابة، بحيرة، مصب، مروج:", options: ["تنوع النظام البيئي", "الانقراض", "تنوع وراثي", "تنوع الأنواع"], correctAnswer: "تنوع النظام البيئي" },
-      { id: 3, type: QuestionType.MULTIPLE_CHOICE, text: "أي مجموعة لها العدد الأكبر من الانقراض الكلي؟", options: ["الطيور", "اللافقاريات", "النباتات الزهرية", "الثدييات"], correctAnswer: "اللافقاريات" },
+      { id: 3, type: QuestionType.MULTIPLE_CHOICE, text: "أي مجموعة لها العدد الأكبر من الانقراض الكلي؟", options: ["الطيور", "اللافقاريات", "النباتات الزهرية", "الثدييات"], correctAnswer: "النباتات الزهرية" },
       { id: 4, type: QuestionType.MULTIPLE_CHOICE, text: "ما المجموعة التي لها أكبر نسبة انقراض؟", options: ["الطيور", "الثدييات", "السمك", "الزواحف"], correctAnswer: "الثدييات" },
       { id: 5, type: QuestionType.MULTIPLE_CHOICE, text: "أي مما يلي لا يعد طريقة يفقد بها النوع موطنه؟", options: ["الانقراض التدريجي", "التدمير", "الاختلال", "التلوث"], correctAnswer: "الانقراض التدريجي" },
       { id: 6, type: QuestionType.MULTIPLE_CHOICE, text: "كم مرة يزيد الانقراض التدريجي الحالي على الطبيعي؟", options: ["1", "1000", "10", "10000 مرة"], correctAnswer: "1000" },
